@@ -1,6 +1,6 @@
 {
   "name": "felid-cors",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A cors plugin for Felid.js",
   "main": "src/index.js",
   "scripts": {
