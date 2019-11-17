@@ -33,7 +33,7 @@ app.plugin(cors, {
 })
 ```
 
-For details, please check [corsen](https://github.co/fralonra/corsen).
+For details, please check [corsen](https://github.com/fralonra/corsen).
 
 ## License
 
