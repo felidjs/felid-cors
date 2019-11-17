@@ -1,0 +1,42 @@
+{
+  "name": "felid-cors",
+  "version": "0.0.1",
+  "description": "A cors plugin for Felid.js",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard --fix src/*.js test/*.js | snazzy",
+    "test": "npm run lint && npm run unit",
+    "unit": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felidjs/felid-cors.git"
+  },
+  "keywords": [
+    "cors",
+    "felid",
+    "felid-plugin"
+  ],
+  "author": "zoron (https://github.com/fralonra/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felidjs/felid-cors/issues"
+  },
+  "homepage": "https://github.com/felidjs/felid-cors#readme",
+  "devDependencies": {
+    "felid": "^0.0.3",
+    "injectar": "^1.3.0",
+    "jest": "^24.9.0",
+    "pre-commit": "^1.2.2",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "corsen": "^1.0.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
