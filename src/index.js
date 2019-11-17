@@ -1,4 +1,4 @@
-const corsen = require('../../corsen/src')
+const corsen = require('corsen')
 
 function plugin (felid, options) {
   felid.options('*', (req, res) => {
