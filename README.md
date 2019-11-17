@@ -1,6 +1,6 @@
 # felid-cors
 
-[![npm version](https://img.shields.io/npm/v/felid-cors.svg)](https://www.npmjs.com/package/felid-cors) [![Build Status](https://travis-ci.org/felidjs/felid-cors.svg?branch=master)](https://travis-ci.org/felidjs/felid-cors) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://img.shields.io/npm/v/felid-cors.svg)](https://www.npmjs.com/package/felid-cors) [![Build Status](https://travis-ci.com/felidjs/felid-cors.svg?branch=master)](https://travis-ci.com/felidjs/felid-cors) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 A [Felid](https://github.com/felidjs/felid) plugin for [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
 
