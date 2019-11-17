@@ -34,20 +34,20 @@ test('Should respond preflighted requests', async () => {
     .header('access-control-request-method', 'GET')
     .end()
 
-    expect(res.statusCode).toBe(204)
-    expect(res.headers['access-control-allow-origin']).toBe('http://felid.com')
-    expect(res.headers['access-control-allow-methods']).toBe('GET,HEAD,PUT,POST,DELETE,PATCH')
-    expect(res.payload).toBe('')
+  expect(res.statusCode).toBe(204)
+  expect(res.headers['access-control-allow-origin']).toBe('http://felid.com')
+  expect(res.headers['access-control-allow-methods']).toBe('GET,HEAD,PUT,POST,DELETE,PATCH')
+  expect(res.payload).toBe('')
 
   res = await injectar(instance.lookup())
     .options('/test')
     .header('origin', 'http://felid.com')
     .end()
 
-    expect(res.statusCode).toBe(200)
-    expect(res.headers).not.toContain('access-control-allow-origin')
-    expect(res.headers).not.toContain('access-control-allow-methods')
-    expect(res.payload).toBe('')
+  expect(res.statusCode).toBe(200)
+  expect(res.headers).not.toContain('access-control-allow-origin')
+  expect(res.headers).not.toContain('access-control-allow-methods')
+  expect(res.payload).toBe('')
 })
 
 test('Should set correct options', async () => {
