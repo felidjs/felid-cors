@@ -37,4 +37,4 @@ For details, please check [corsen](https://github.co/fralonra/corsen).
 
 ## License
 
-MIT
+[MIT](./LICENSE)
