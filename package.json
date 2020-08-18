@@ -3,6 +3,9 @@
   "version": "1.0.5",
   "description": "A cors plugin for Felid.js",
   "main": "src/index.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "lint": "standard --fix src/*.js test/*.js | snazzy",
     "test": "npm run lint && npm run unit",
